@@ -9,7 +9,6 @@
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
-    "database": "b386dt3fx0h6cqhc",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
