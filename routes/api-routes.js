@@ -1,9 +1,9 @@
 const db = require('../models');
 
-modules.exports = function(app) {
+module.exports = function(app) {
   app.get('/api/todos', function(req, res) {
     db.Todo.findAll().then(function(todos) {
-      req.json(dbTodo);
+      res.json(todos);
     });
   });
 
